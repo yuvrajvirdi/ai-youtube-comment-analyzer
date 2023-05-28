@@ -3,7 +3,7 @@
 YouTube comment analyzer for comment sentiment analysis, spam detection, topic modeling, and classification
 Each comment is analyzed in the following format:
 
-`comment`: the comment text
+`comment`: the comment text \n
 `isSpam`: boolean value on if the comment is spam using a Multinomial Naive Bayes model
 `author`: name of the comment author
 `likeCount`: numerical like count
