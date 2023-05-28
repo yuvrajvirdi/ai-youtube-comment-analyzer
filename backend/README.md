@@ -1,6 +1,6 @@
 # Backend
 
-RESTful API that predicts if a comment is spam or not
+RESTful API that runs analysis experiments on a youtube comment
 
 ```python
 python main.py
