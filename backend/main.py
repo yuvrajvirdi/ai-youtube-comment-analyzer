@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 from sentiment_analyzer import SentimentAnalyzer
 from topic_modeller import TopicModeller
 from spam_detector import SpamDetector
@@ -6,6 +7,7 @@ from type_classifier import TypeClassifier
 from comments import Comments
 
 app = Flask(__name__)
+CORS(app)
 
 spam_detector = SpamDetector()
 sentiment_analyzer = SentimentAnalyzer()
