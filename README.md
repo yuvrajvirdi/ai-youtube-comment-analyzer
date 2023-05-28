@@ -4,13 +4,13 @@ YouTube comment analyzer for comment sentiment analysis, spam detection, topic m
 Each comment is analyzed in the following format:
 
 `comment`: the comment text  <br />
-`isSpam`: boolean value on if the comment is spam using a Multinomial Naive Bayes model
-`author`: name of the comment author
-`likeCount`: numerical like count
-`publishedDate`: published date
-`sentiment`: the sentiment of a comment, which is positive if the sentimental polarity is above 0, negative if below 0, and neutral if it is 0. This is done using NLTK
-`topic`: a list of topics from the comment made using NLTK methods such as tokenization and LDA modelling
-`type`: the classification of the comment, which can either be a question, statement, feedback, or remark. Used hard-coded synthetic training data and once again used tokenization along with a Word Net Lemmatizer
+`isSpam`: boolean value on if the comment is spam using a Multinomial Naive Bayes model  <br />
+`author`: name of the comment author  <br />
+`likeCount`: numerical like count  <br />
+`publishedDate`: published date  <br />
+`sentiment`: the sentiment of a comment, which is positive if the sentimental polarity is above 0, negative if below 0, and neutral if it is 0. This is done using NLTK  <br />
+`topic`: a list of topics from the comment made using NLTK methods such as tokenization and LDA modelling  <br />
+`type`: the classification of the comment, which can either be a question, statement, feedback, or remark. Used hard-coded synthetic training data and once again used tokenization along with a Word Net Lemmatizer 
 
 # Setup
 
